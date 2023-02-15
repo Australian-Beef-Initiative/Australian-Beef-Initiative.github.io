@@ -3,14 +3,14 @@
   "description": "Official Website of the Australian Beef Initiative",
   "keywords": [
     "bitcoin",
-    "community website",
-    "community",
+    "beef initiative",
+    "regenerative health",
     "react",
     "typescript",
     "javascript"
   ],
-  "version": "0.2.0",
-  "homepage": "https://www.australian-beef-initiative.github.io/web-frontend",
+  "version": "0.1.0",
+  "homepage": "https://www.australian-beef-initiative.github.io",
   "license": "Apache-2.0",
   "dependencies": {
     "@emotion/react": "^11.10.5",
