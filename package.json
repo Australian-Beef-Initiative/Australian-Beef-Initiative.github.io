@@ -10,7 +10,7 @@
     "javascript"
   ],
   "version": "0.2.0",
-  "homepage": "https://www.australianbeefinitiative.com",
+  "homepage": "https://www.australian-beef-initiative.github.io/web-frontend",
   "license": "Apache-2.0",
   "dependencies": {
     "@emotion/react": "^11.10.5",
