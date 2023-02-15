@@ -5,7 +5,7 @@ export const Main = () => {
     const isTabletOrMobile = useMediaQuery('(max-width:1000px)');
     return (
         <Container maxWidth="lg">
-            <Box sx={{height: isTabletOrMobile ? '30vh' : '50vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+            <Box sx={{height: '50vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
                 <Container>
                     <Typography variant="h1" color="primary" textAlign="center">
                             Australian Beef Initiative
@@ -17,7 +17,7 @@ export const Main = () => {
                         <Typography variant="h3" color="secondary" textAlign="center" sx={{paddingBottom: 2}} gutterBottom>
                             The ABI mission is to improve health by providing real nutrition throughout local communities.
                         </Typography>
-                        <Button size="large" variant="outlined" color="secondary">
+                        <Button href="/about-us" size="large" variant="outlined" color="secondary">
                             Read our mission statement
                         </Button>
 
